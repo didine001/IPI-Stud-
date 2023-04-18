@@ -39,7 +39,7 @@ const LoginScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
               marginVertical: Spacing * 3,
             }}
           >
-            Login here
+            Se connecter
           </Text>
           <Text
             style={{
@@ -49,7 +49,7 @@ const LoginScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
               textAlign: "center",
             }}
           >
-            Welcome back you've been missed!
+            Bienvenue ! Tu nous à manqué 
           </Text>
         </View>
         <View
@@ -70,7 +70,7 @@ const LoginScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
               alignSelf: "flex-end",
             }}
           >
-            Forgot your password ?
+            Mot de passe oublié ? 
           </Text>
         </View>
 
@@ -114,7 +114,7 @@ const LoginScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
               fontSize: FontSize.small,
             }}
           >
-            Create new account
+            Créer un nouveau compte
           </Text>
         </TouchableOpacity>
 

@@ -62,7 +62,7 @@ const RegisterScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
               marginVertical: Spacing * 3,
             }}
           >
-            Create account
+            Créer un compte
           </Text>
           <Text
             style={{
@@ -72,7 +72,7 @@ const RegisterScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
               textAlign: "center",
             }}
           >
-            Create an account so you can explore all the existing jobs
+            Créer un compte pour accéder à votre emploi du temps
           </Text>
         </View>
         <View
@@ -81,8 +81,8 @@ const RegisterScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
           }}
         >
           <AppTextInput placeholder="Email" />
-          <AppTextInput placeholder="Password" />
-          <AppTextInput placeholder="Confirm Password" />
+          <AppTextInput placeholder="Mot de passe" />
+          <AppTextInput placeholder="Confirmer mot de passe " />
         </View>
         
 
@@ -126,7 +126,7 @@ const RegisterScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
               fontSize: FontSize.small,
             }}
           >
-            Already have an account
+            J'ai déjà un compte 
           </Text>
         </TouchableOpacity>
 
@@ -143,7 +143,7 @@ const RegisterScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
               fontSize: FontSize.small,
             }}
           >
-            Or continue with
+            Ou continuer avec 
           </Text>
               
 <View

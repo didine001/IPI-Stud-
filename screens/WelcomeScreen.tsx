@@ -55,8 +55,7 @@ const WelcomeScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
               marginTop: Spacing * 2,
             }}
           >
-            Explore all the existing job roles based or your interest and study
-            major
+            Accédez à votre emploi du temps IPI en toute facilité ! 
           </Text>
         </View>
         <View
@@ -111,7 +110,7 @@ const WelcomeScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
                 textAlign: "center",
               }}
             >
-              Register
+              S'inscrire
             </Text>
           </TouchableOpacity>
         </View>
